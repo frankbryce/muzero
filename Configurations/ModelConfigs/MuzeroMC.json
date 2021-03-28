@@ -10,7 +10,7 @@
     "max_episode_moves": 500,
     "max_trial_moves": 500,
     "pitting": true,
-    "pitting_trials": 10,
+    "pitting_trials": 1,
     "pit_acceptance_ratio": 0.0,
     "dirichlet_alpha": 0.25,
     "exploration_fraction": 0.25,
@@ -29,9 +29,9 @@
     "minimum_reward": null,
     "maximum_reward": null,
 
-    "checkpoint": "./out/mc_out/latent_4/",
-    "load_model": false,
-    "load_folder_file": ["./out/mc_out/latent_4/", "latest.pth.tar"],
+    "checkpoint": "/content/drive/MyDrive/Data/Muzero_Testing",
+    "load_model": true,
+    "load_folder_file": ["/content/drive/MyDrive/Data/Muzero_Testing", "latest.pth.tar"],
     "selfplay_buffer_window": 10,
 
     "temperature_schedule": {
@@ -48,7 +48,7 @@
       "momentum": 0.9
     },
     "l2": 1e-4,
-    "dynamics_penalty": 0.0,
+    "dynamics_penalty": 1,
     "dropout": 0.0,
     "batch_size": 128,
     "cuda": false,
