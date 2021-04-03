@@ -15,7 +15,7 @@
     "dirichlet_alpha": 0.25,
     "exploration_fraction": 0.25,
     "max_buffer_size": 200000,
-    "num_MCTS_sims": 2,
+    "num_MCTS_sims": 5,
     "prioritize": false,
     "prioritize_alpha": 0.5,
     "prioritize_beta": 1,
